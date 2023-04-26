@@ -7,4 +7,12 @@
 > 暂存 ---> 未修改 (git commit)
 > 未修改 ---> 修改 (修改文件内容)
 
+
+# 常用命令
 > git commit -a -m''  提交所有已修改的文件 (未跟踪的文件不会提交)
+
+* 重置文件
+> git restore <filename>
+
+* 删除文件
+> git rm <filename>
