@@ -12,8 +12,12 @@
 > git commit -a -m''  提交所有已修改的文件 (未跟踪的文件不会提交)
 
 * 重置文件
-> git restore <filename>
-> git restore --staged <filename>
+> git restore <filename> # 恢复文件
+> git restore --staged <filename> # 取消暂存状态 
 
 * 删除文件
-> git rm <filename>
+> git rm <filename> -f
+
+
+
+
