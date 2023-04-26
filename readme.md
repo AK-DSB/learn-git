@@ -13,6 +13,7 @@
 
 * 重置文件
 > git restore <filename>
+> git restore --staged <filename>
 
 * 删除文件
 > git rm <filename>
