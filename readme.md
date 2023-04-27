@@ -58,4 +58,8 @@ git switch -c <branch name> <commit id>
 git tag
 git tag <version>
 git tag <version> <commit id>
+git push origin <tag name>
+git push origin --tags # 推送所有标签
+git tag -d <tag name> # 删除标签
+git push origin --delete <tag name> # 远处远程标签
 ```
