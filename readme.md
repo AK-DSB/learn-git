@@ -63,3 +63,6 @@ git push origin --tags # 推送所有标签
 git tag -d <tag name> # 删除标签
 git push origin --delete <tag name> # 远处远程标签
 ```
+
+# gitignore
+# 默认情况下, git 会监视项目中所有内容, 但是有些内容比如node_modules目录中的内容,我们不希望它被git所管理,我们可以在项目目录中添加一个.gitignore文件,来设置那些需要git忽略的文件
