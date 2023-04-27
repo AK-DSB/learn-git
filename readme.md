@@ -48,4 +48,14 @@ git switch -c <branch name> # 创建并切换分支
 
 # tag 标签
 > 当头指针没有指向某个分支的头部时, 这种状态我们称为分离头指针(Head detached), 分离头指针的状态下也可以操作代码《 但是这些操作不会出现在任何的分支上, 所以注意不要在分离头指针的状态下来操作仓库.
-> 如果非得要
+> 如果非得要回到后边的节点对代码进行操作, 则可以选择创建分支后再操作
+```bash
+git switch -c <branch name> <commit id>
+```
+
+> 可以为提交记录设置标签, 设置标签以后, 可以通过标签快速的识别出不同的开发节点
+```bash
+git tag
+git tag <version>
+git tag <version> <commit id>
+```
